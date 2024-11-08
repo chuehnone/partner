@@ -76,9 +76,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.pocketpal"
+    namespace "com.partner"
     defaultConfig {
-        applicationId "com.pocketpalai"
+        applicationId "com.partner"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 13 
@@ -95,9 +95,9 @@ android {
             keyPassword 'android'
         }
         release {
-            storeFile file("pocketpal-release-key.keystore")
+            storeFile file("partner-release-key.keystore")
             storePassword project.env.get("APP_RELEASE_STORE_PASSWORD")
-            keyAlias "pocketpal_key_alias"
+            keyAlias "partner_key_alias"
             keyPassword project.env.get("APP_RELEASE_KEY_PASSWORD")
         }
     }

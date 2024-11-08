@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* PocketPalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PocketPalTests.m */; };
+		00E356F31AD99517003FC87E /* PartnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PartnerTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		36B03A5A5CA4CC82C7DB800B /* libPods-PocketPal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F375E195CC1974E75C558FD /* libPods-PocketPal.a */; };
-		6F48BC249E5E59B72A562202 /* libPods-PocketPal-PocketPalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D27E0293B9D8C211B881E4C4 /* libPods-PocketPal-PocketPalTests.a */; };
+		31BF5D8781B708659689E308 /* libPods-Partner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EB8E3C479688D915AF9E40 /* libPods-Partner.a */; };
+		5C44E761ED3FC08025966358 /* libPods-Partner-PartnerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9B31728A1DD2ABA84CA507 /* libPods-Partner-PartnerTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -22,26 +22,30 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = PocketPal;
+			remoteInfo = Partner;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* PocketPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* PartnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* PocketPalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketPalTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* PartnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartnerTests.m; sourceTree = "<group>"; };
 		04EDBEC6CF22D26074FE701D /* Pods-PocketPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPal.debug.xcconfig"; path = "Target Support Files/Pods-PocketPal/Pods-PocketPal.debug.xcconfig"; sourceTree = "<group>"; };
 		12009917F81D5194B51E7253 /* Pods-PocketPal-PocketPalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPal-PocketPalTests.debug.xcconfig"; path = "Target Support Files/Pods-PocketPal-PocketPalTests/Pods-PocketPal-PocketPalTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* PocketPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PocketPal/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = PocketPal/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PocketPal/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PocketPal/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PocketPal/main.m; sourceTree = "<group>"; };
-		2F375E195CC1974E75C558FD /* libPods-PocketPal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PocketPal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Partner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Partner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Partner/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Partner/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Partner/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Partner/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Partner/main.m; sourceTree = "<group>"; };
+		23EB8E3C479688D915AF9E40 /* libPods-Partner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Partner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48676C16E46418940746B563 /* Pods-Partner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Partner.debug.xcconfig"; path = "Target Support Files/Pods-Partner/Pods-Partner.debug.xcconfig"; sourceTree = "<group>"; };
 		7ED25E60B577DABD90D17D15 /* Pods-PocketPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPal.release.xcconfig"; path = "Target Support Files/Pods-PocketPal/Pods-PocketPal.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PocketPal/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D27E0293B9D8C211B881E4C4 /* libPods-PocketPal-PocketPalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PocketPal-PocketPalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Partner/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8987CC8A756A5634E4ACAE6F /* Pods-Partner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Partner.release.xcconfig"; path = "Target Support Files/Pods-Partner/Pods-Partner.release.xcconfig"; sourceTree = "<group>"; };
+		9B9B31728A1DD2ABA84CA507 /* libPods-Partner-PartnerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Partner-PartnerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2ADC586622516A13DE482BF /* Pods-Partner-PartnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Partner-PartnerTests.debug.xcconfig"; path = "Target Support Files/Pods-Partner-PartnerTests/Pods-Partner-PartnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF0696F287F17C23F0226AB6 /* Pods-Partner-PartnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Partner-PartnerTests.release.xcconfig"; path = "Target Support Files/Pods-Partner-PartnerTests/Pods-Partner-PartnerTests.release.xcconfig"; sourceTree = "<group>"; };
 		EB8DF3A7DF5AEC7AECAC8163 /* Pods-PocketPal-PocketPalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketPal-PocketPalTests.release.xcconfig"; path = "Target Support Files/Pods-PocketPal-PocketPalTests/Pods-PocketPal-PocketPalTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F6E78A942BFFAF1A00968174 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
@@ -53,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F48BC249E5E59B72A562202 /* libPods-PocketPal-PocketPalTests.a in Frameworks */,
+				5C44E761ED3FC08025966358 /* libPods-Partner-PartnerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,20 +65,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B03A5A5CA4CC82C7DB800B /* libPods-PocketPal.a in Frameworks */,
+				31BF5D8781B708659689E308 /* libPods-Partner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* PocketPalTests */ = {
+		00E356EF1AD99517003FC87E /* PartnerTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* PocketPalTests.m */,
+				00E356F21AD99517003FC87E /* PartnerTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = PocketPalTests;
+			path = PartnerTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -85,7 +89,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* PocketPal */ = {
+		13B07FAE1A68108700A75B9A /* Partner */ = {
 			isa = PBXGroup;
 			children = (
 				F6FDF0F52BF10159004D619B /* Fonts */,
@@ -96,15 +100,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = PocketPal;
+			name = Partner;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				2F375E195CC1974E75C558FD /* libPods-PocketPal.a */,
-				D27E0293B9D8C211B881E4C4 /* libPods-PocketPal-PocketPalTests.a */,
+				23EB8E3C479688D915AF9E40 /* libPods-Partner.a */,
+				9B9B31728A1DD2ABA84CA507 /* libPods-Partner-PartnerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,9 +123,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* PocketPal */,
+				13B07FAE1A68108700A75B9A /* Partner */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* PocketPalTests */,
+				00E356EF1AD99517003FC87E /* PartnerTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -134,8 +138,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* PocketPal.app */,
-				00E356EE1AD99517003FC87E /* PocketPalTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Partner.app */,
+				00E356EE1AD99517003FC87E /* PartnerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +151,10 @@
 				7ED25E60B577DABD90D17D15 /* Pods-PocketPal.release.xcconfig */,
 				12009917F81D5194B51E7253 /* Pods-PocketPal-PocketPalTests.debug.xcconfig */,
 				EB8DF3A7DF5AEC7AECAC8163 /* Pods-PocketPal-PocketPalTests.release.xcconfig */,
+				48676C16E46418940746B563 /* Pods-Partner.debug.xcconfig */,
+				8987CC8A756A5634E4ACAE6F /* Pods-Partner.release.xcconfig */,
+				A2ADC586622516A13DE482BF /* Pods-Partner-PartnerTests.debug.xcconfig */,
+				CF0696F287F17C23F0226AB6 /* Pods-Partner-PartnerTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -163,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* PocketPalTests */ = {
+		00E356ED1AD99517003FC87E /* PartnerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PocketPalTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PartnerTests" */;
 			buildPhases = (
 				CBCE96C73D0E43A5B779B642 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -179,14 +187,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = PocketPalTests;
-			productName = PocketPalTests;
-			productReference = 00E356EE1AD99517003FC87E /* PocketPalTests.xctest */;
+			name = PartnerTests;
+			productName = PartnerTests;
+			productReference = 00E356EE1AD99517003FC87E /* PartnerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* PocketPal */ = {
+		13B07F861A680F5B00A75B9A /* Partner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PocketPal" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Partner" */;
 			buildPhases = (
 				BAD27AE0021C85E26D07C45B /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -200,9 +208,9 @@
 			);
 			dependencies = (
 			);
-			name = PocketPal;
-			productName = PocketPal;
-			productReference = 13B07F961A680F5B00A75B9A /* PocketPal.app */;
+			name = Partner;
+			productName = Partner;
+			productReference = 13B07F961A680F5B00A75B9A /* Partner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PocketPal" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Partner" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,8 +243,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* PocketPal */,
-				00E356ED1AD99517003FC87E /* PocketPalTests */,
+				13B07F861A680F5B00A75B9A /* Partner */,
+				00E356ED1AD99517003FC87E /* PartnerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,15 +291,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PocketPal-PocketPalTests/Pods-PocketPal-PocketPalTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Partner-PartnerTests/Pods-Partner-PartnerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PocketPal-PocketPalTests/Pods-PocketPal-PocketPalTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Partner-PartnerTests/Pods-Partner-PartnerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketPal-PocketPalTests/Pods-PocketPal-PocketPalTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Partner-PartnerTests/Pods-Partner-PartnerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BAD27AE0021C85E26D07C45B /* [CP] Check Pods Manifest.lock */ = {
@@ -309,7 +317,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PocketPal-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Partner-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,7 +339,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PocketPal-PocketPalTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Partner-PartnerTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -344,15 +352,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PocketPal/Pods-PocketPal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Partner/Pods-Partner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PocketPal/Pods-PocketPal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Partner/Pods-Partner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketPal/Pods-PocketPal-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Partner/Pods-Partner-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DD7A9DEF01620ADEA0221FBF /* [CP] Embed Pods Frameworks */ = {
@@ -361,15 +369,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PocketPal-PocketPalTests/Pods-PocketPal-PocketPalTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Partner-PartnerTests/Pods-Partner-PartnerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PocketPal-PocketPalTests/Pods-PocketPal-PocketPalTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Partner-PartnerTests/Pods-Partner-PartnerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketPal-PocketPalTests/Pods-PocketPal-PocketPalTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Partner-PartnerTests/Pods-Partner-PartnerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E4C990C8DEAE1FDF91912E22 /* [CP] Copy Pods Resources */ = {
@@ -378,15 +386,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PocketPal/Pods-PocketPal-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Partner/Pods-Partner-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PocketPal/Pods-PocketPal-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Partner/Pods-Partner-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocketPal/Pods-PocketPal-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Partner/Pods-Partner-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -396,7 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* PocketPalTests.m in Sources */,
+				00E356F31AD99517003FC87E /* PartnerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +422,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* PocketPal */;
+			target = 13B07F861A680F5B00A75B9A /* Partner */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,7 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12009917F81D5194B51E7253 /* Pods-PocketPal-PocketPalTests.debug.xcconfig */;
+			baseConfigurationReference = A2ADC586622516A13DE482BF /* Pods-Partner-PartnerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = MYXGXY23Y6;
@@ -430,7 +438,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PocketPalTests/Info.plist;
+				INFOPLIST_FILE = PartnerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,12 +458,12 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB8DF3A7DF5AEC7AECAC8163 /* Pods-PocketPal-PocketPalTests.release.xcconfig */;
+			baseConfigurationReference = CF0696F287F17C23F0226AB6 /* Pods-Partner-PartnerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = MYXGXY23Y6;
-				INFOPLIST_FILE = PocketPalTests/Info.plist;
+				INFOPLIST_FILE = PartnerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,20 +483,21 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04EDBEC6CF22D26074FE701D /* Pods-PocketPal.debug.xcconfig */;
+			baseConfigurationReference = 48676C16E46418940746B563 /* Pods-Partner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MYXGXY23Y6;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = PocketPal/Info.plist;
+				INFOPLIST_FILE = Partner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Partner;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.6;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -502,8 +511,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ai.pocketpal;
-				PRODUCT_NAME = PocketPal;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.Partner;
+				PRODUCT_NAME = Partner;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -517,19 +526,20 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7ED25E60B577DABD90D17D15 /* Pods-PocketPal.release.xcconfig */;
+			baseConfigurationReference = 8987CC8A756A5634E4ACAE6F /* Pods-Partner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MYXGXY23Y6;
-				INFOPLIST_FILE = PocketPal/Info.plist;
+				INFOPLIST_FILE = Partner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Partner;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.6;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -543,8 +553,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ai.pocketpal;
-				PRODUCT_NAME = PocketPal;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.Partner;
+				PRODUCT_NAME = Partner;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -709,7 +719,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PocketPalTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PartnerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -718,7 +728,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PocketPal" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Partner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -727,7 +737,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PocketPal" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Partner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

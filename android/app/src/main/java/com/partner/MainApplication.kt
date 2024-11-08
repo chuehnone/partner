@@ -1,4 +1,4 @@
-package com.pocketpal
+package com.partner
 
 import android.app.Application
 import com.facebook.react.PackageList
