@@ -11,7 +11,12 @@ import {Provider as PaperProvider} from 'react-native-paper';
 import {useTheme} from './src/hooks';
 import {HeaderRight, SidebarContent} from './src/components';
 import {modelStore} from './src/store';
-import {ChatScreen, ModelsScreen, SettingsScreen} from './src/screens';
+import {
+  ChatScreen,
+  ModelsScreen,
+  SettingsScreen,
+  AboutScreen,
+} from './src/screens';
 
 const Drawer = createDrawerNavigator();
 
@@ -60,6 +65,10 @@ const App = observer(() => {
           <Drawer.Screen
             name="Settings"
             component={gestureHandlerRootHOC(SettingsScreen)}
+          />
+          <Drawer.Screen
+            name="About"
+            component={gestureHandlerRootHOC(AboutScreen)}
           />
         </Drawer.Navigator>
       </NavigationContainer>
